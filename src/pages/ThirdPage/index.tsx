@@ -1,12 +1,16 @@
 "use client"
-import { Container, ItemsThirdPage } from "./styles";
+import { ItemsThirdPage } from "./styles";
 import icon from '@/assets/image-items-1.png'
 import icon2 from '@/assets/image-items-2.png'
 import icon3 from '@/assets/image-items-3.png'
 import image from '@/assets/image-third-page.png'
 import side from '@/assets/side-3.png'
+import Container from "./styles";
 
-export function ThirdPage(){
+export default function ThirdPage(){
+
+    
+
     return(
         <Container>
             <img className="side" src={side.src} alt="" />

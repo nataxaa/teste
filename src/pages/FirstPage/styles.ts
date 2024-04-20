@@ -1,7 +1,7 @@
 "use client"
 import styled from "styled-components";
 
-export const Container = styled.div`
+const Container = styled.div`
     background-color: rgba(128, 244, 218, 0.16);
     color: rgba(0, 150, 116, 1);
     display: flex;
@@ -22,5 +22,10 @@ export const Container = styled.div`
     }
     img{
         width: 22rem;
+        @media screen and (max-width: 700px){
+            display: none;
+        }
     }
 `
+
+export default Container;

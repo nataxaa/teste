@@ -1,10 +1,10 @@
 "use client"
-import { Container } from "./styles";
+import  Container  from "./styles";
 import image from '@/assets/image-six-page.png'
 import googleplay from '@/assets/google-play.png'
 import appstore from '@/assets/app-store.png'
 
-export function SixPage(){
+export default function SixPage(){
     return(
         <Container>
             <div className="text-title">

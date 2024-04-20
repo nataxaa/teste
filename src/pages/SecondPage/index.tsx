@@ -1,13 +1,14 @@
 "use client"
 
-import { Container, Items } from "./styles"
 import icon1 from '@/assets/icon1.png'
 import icon2 from '@/assets/icon2.png'
 import icon3 from '@/assets/icon3.png'
 import image from '@/assets/image-second-page.png'
 import elipse from '@/assets/Ellipse.png'
+import Container, { Items } from './styles'
  
-export function SecondPage(){
+export default function SecondPage(){
+
     return(
         <Container>
             <img className="elipse" src={elipse.src} alt="" />

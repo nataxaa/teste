@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import image from '@/assets/background.png'
 
-export const Container = styled.div`
+ const Container = styled.div`
 
     background-image: url(${image.src});
     background-size: cover;
@@ -26,7 +26,7 @@ export const Container = styled.div`
 
 `
 
-export const ItemsComments = styled.div`
+ export const ItemsComments = styled.div`
     background-color: #FFFFFF;
     padding: 20px;
     color: rgba(49, 60, 69, 1);
@@ -42,3 +42,5 @@ export const ItemsComments = styled.div`
         margin-left: -16rem;
     }
 `
+
+export default Container;

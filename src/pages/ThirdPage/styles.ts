@@ -1,7 +1,7 @@
 "use client"
 import styled from "styled-components";
 
-export const Container = styled.div`
+ const Container = styled.div`
     
     background-color:rgba(255, 245, 232, 1) ;
     color: rgba(201, 118, 11, 1);
@@ -60,7 +60,7 @@ export const Container = styled.div`
     }
 
 `
-export const ItemsThirdPage = styled.div`
+ export const ItemsThirdPage = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,3 +70,5 @@ export const ItemsThirdPage = styled.div`
         width: 15rem;
     }
 `
+
+export default Container

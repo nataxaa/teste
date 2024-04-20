@@ -1,7 +1,7 @@
 "use client"
 import styled from "styled-components";
 
-export const Container = styled.div`
+ const Container = styled.div`
     background-color: rgba(191, 251, 237, 1);
     color: rgba(99, 145, 162, 1);
     padding: 60px;
@@ -54,3 +54,6 @@ export const ItemDoctor = styled.div`
         border-radius: 10px 10px 0 0;
     }
 `
+
+
+export default Container;

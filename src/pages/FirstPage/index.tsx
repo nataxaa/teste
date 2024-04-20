@@ -1,12 +1,13 @@
 "use client"
 import { ButtonLogin, ButtonRegister } from "@/components/Header/styles"
-import { Container } from "./styles"
+import  Container  from "./styles"
 import image from '@/assets/Foto_familia.png'
 import icon from '@/assets/aspas-1.png'
 
-export function FirstPage(){
+export default function FirstPage(){
     
-    const mobile = window.innerWidth
+    
+      
 
     return(
         <Container>
@@ -22,9 +23,8 @@ export function FirstPage(){
                     <ButtonLogin>LOGIN</ButtonLogin>
                 </div>
             </div>
-            {mobile > 700 && (
-                <img src={image.src} alt="Imagem de um homem e uma mulher, com o homem segurando um bebe, formando uma familia feliz" />
-            )}
+        
+            <img src={image.src} alt="Imagem de um homem e uma mulher, com o homem segurando um bebe, formando uma familia feliz" />
         </Container>
     )
 }

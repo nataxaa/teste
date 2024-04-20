@@ -64,12 +64,6 @@ export const SectionContainer = styled.div`
 export const SectionFooter = styled.section`
   padding-top: 64px;
 
-  @media (max-width: 700px) {
-    :nth-child(1) {
-      padding-top: 16px;
-    }
-  }
-
   h5 {
     color: #01e9b5;
 

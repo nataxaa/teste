@@ -1,9 +1,14 @@
 "use client"
-import { Container, ItemsComments } from "./styles";
+
 import icon from '@/assets/aspas.png'
 import star from '@/assets/star.png'
+import Container, { ItemsComments } from './styles'
 
-export function EightPage(){
+
+export default function EightPage(){
+
+   
+
     return(
         <Container>
             <h1>Retratos do Autismo</h1>

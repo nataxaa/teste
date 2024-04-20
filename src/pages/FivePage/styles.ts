@@ -1,7 +1,7 @@
 "use client"
 import styled from "styled-components";
 
-export const Container = styled.div`
+ const Container = styled.div`
 
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ export const Container = styled.div`
 
 `
 
-export const SectionPage = styled.div`
+ export const SectionPage = styled.div`
     background: linear-gradient(125.65deg, #F4B261 0.81%, #FFF5E8 100%);
     border-radius: 176.08px 26.41px 26.41px 26.41px;
     display: grid;
@@ -69,3 +69,5 @@ export const SectionPage = styled.div`
 ;
 
 `
+
+export default Container;

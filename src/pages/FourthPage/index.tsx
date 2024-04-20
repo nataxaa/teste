@@ -1,12 +1,14 @@
 "use client"
-import { Container, Items } from "./styles";
+
 import image from '@/assets/image4.png'
 import icon from '@/assets/icon-4.png'
 import icon2 from '@/assets/icon2-4.png'
 import icon3 from '@/assets/icon3-4.png'
+import Container, { Items } from './styles'
 
 
-export function FourthPage(){
+export default function FourthPage(){
+
     return(
         <Container>
             <div className="text-area">

@@ -6,7 +6,7 @@ interface ItemsProps{
     colorBackground: string;
 }
 
-export const Container = styled.div`
+const Container = styled.div`
     background-color: rgba(247, 247, 255, 1);
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -60,7 +60,7 @@ export const Container = styled.div`
     }
 `
 
-export const Items = styled.div<ItemsProps>`
+ export const Items = styled.div<ItemsProps>`
     color: ${({colorText}) => colorText };
     background-color: ${({colorBackground}) => colorBackground};
     display: flex;
@@ -84,3 +84,5 @@ export const Items = styled.div<ItemsProps>`
         width: 5rem;
     }
 `
+
+export default Container;

@@ -7,8 +7,26 @@ export function Header(){
         <Container>
             <img src={logo.src} alt="" />
             <div className="button-area">
-                <ButtonRegister onClick={()=>window.open('https://app.flimed.com.br/signup')}>CRIAR CONTA</ButtonRegister>
-                <ButtonLogin onClick={()=>window.open('https://app.flimed.com.br/signin')}>LOGIN</ButtonLogin>
+                <ButtonRegister 
+                    onClick={()=>{
+                        if (typeof window !== "undefined") {
+                            window.open('https://app.flimed.com.br/signup')
+                          }
+                          
+                    }}
+                >
+                    CRIAR CONTA
+                </ButtonRegister>
+                <ButtonLogin 
+                    onClick={()=>{
+                        if (typeof window !== "undefined") {
+                            window.open('https://app.flimed.com.br/signin')
+                          }
+                          
+                    }}
+                >
+                    LOGIN
+                </ButtonLogin>
             </div>
         </Container>
 

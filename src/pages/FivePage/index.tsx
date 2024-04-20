@@ -1,13 +1,16 @@
 "use client"
-import { Container, SectionPage } from "./styles";
+
 import image from '@/assets/five-image.png'
 import icon from '@/assets/icon1-5.png'
 import icon2 from '@/assets/icon2-5.png'
 import icon3 from '@/assets/icon3-5.png'
 import icon4 from '@/assets/icon4-5.png'
 import boll from '@/assets/boll.png'
+import Container, { SectionPage } from './styles'
 
-export function FivePage(){
+export default function FivePage(){
+
+
     return(
         <Container>
             <img className="boll" src={boll.src} alt="" />

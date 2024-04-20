@@ -1,9 +1,12 @@
 "use client"
 
-import { Container, ItemDoctor } from "./styles"
 import image from '@/assets/doctor-image.png'
+import Container, { ItemDoctor } from './styles'
 
-export function SevenPage(){
+export default function SevenPage(){
+
+    
+
     return(
         <Container>
            <h1>Profissionais Altamente Capacitados</h1>
